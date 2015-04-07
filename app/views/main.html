@@ -1,0 +1,31 @@
+<div class="">
+  <!-- <div style="padding-top: 20px; padding-bottom: 10px;" class="row">
+    <div class="jumbotron">
+      <h1 class="header">Shit ToDo Today</h1>
+      <p class="flow-text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    </div>
+  </div> -->
+
+  <div class="row z-depth-2">
+    <h1 style="font-weight: 600; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
+  </div>
+
+  <div class="row z-depth-2">
+    <h1 style="font-weight: 200; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
+  </div>
+
+  <!-- Make a new Todo -->
+  <form role="form" ng-submit="addTodo()">
+    <div class="input-field">
+      <input type="text" ng-model="todo" placeholder="More shit to do?" class="validate">
+      <button class="btn waves-effect waves-light" type="submit" name="action">Add
+        <i class=""></i>
+      </button>
+    </div>
+  </form>
+
+  <!-- List of Todos -->
+  <p class="input-field" ng-repeat="todo in todos">
+    <input type="text" ng-model="todo" class="validate">
+  </p>
+</div>
