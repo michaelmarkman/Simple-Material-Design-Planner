@@ -6,36 +6,37 @@
     </div>
   </div> -->
   <br />
-  <div class="row z-depth-2">
-    <h1 style="font-weight: 600; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
 
-  </div>
-
-  <div class="row z-depth-2">
-    <h1 style="font-weight: 200; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
-  </div>
-
-  <div class="row z-depth-2">
-    <h1 style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
-  </div>
-
-  <!-- Make a new Todo -->
-  <form role="form" ng-submit="addTodo()">
-    <div class="row">
-      <div class="input-field col s12">
-        <input type="text" id="addShit" ng-model="todo" placeholder="" class="">
-        <label for="addShit">Add more shit</label>
-      </div>
-
-      <button class="btn waves-effect waves-light right" type="submit">Add
-        <i class=""></i>
-      </button>
-
+  <div class="section">
+    <div class="row z-depth-2">
+      <h1 style="font-weight: 600; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
     </div>
-  </form>
 
-  <!-- List of Todos -->
-  <p class="input-field" ng-repeat="todo in todos">
-    <input type="text" ng-model="todo" class="validate">
-  </p>
+    <div class="row z-depth-2">
+      <h1 style="font-weight: 200; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
+    </div>
+  </div>
+
+  <h1 style="font-weight: 200;" class="header col s12">Shit ToDo Today</h1>
+  <div class="row divider"> </div>
+
+  <div class="section">
+    <!-- Make a new Todo -->
+    <form role="form" ng-submit="addTodo()">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="addShit" ng-model="todo" placeholder="" class="validate">
+          <label for="addShit">Add more shit</label>
+
+          <span class="btn waves-effect waves-light right" type="submit">Add</span>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="section">
+    <!-- List of Todos -->
+    <p class="input-field" ng-repeat="todo in todos">
+      <input type="text" ng-model="todo" class="">
+    </p>
+  </div>
 </div>
