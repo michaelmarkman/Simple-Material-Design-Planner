@@ -3,17 +3,6 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
- body .jumbotron,
- .container .jumbotron,
- .container-fluid .jumbotron {
-   background-color: #fff;
-   padding: 19px;
-   margin-bottom: 20px;
-   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   border-radius: 2px;
-   border: 0;
- }
-
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
