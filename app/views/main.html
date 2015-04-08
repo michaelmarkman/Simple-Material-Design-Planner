@@ -7,7 +7,7 @@
   </div> -->
   <br />
 
-  <div class="section">
+  <!-- <div class="section">
     <div class="row z-depth-2">
       <h1 style="font-weight: 600; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
     </div>
@@ -15,28 +15,36 @@
     <div class="row z-depth-2">
       <h1 style="font-weight: 200; padding-top: 0px; padding-bottom: 0px; padding-left: 15px;" class="header left">Shit ToDo Today</h1>
     </div>
+  </div> -->
+
+  <h1 style="font-weight: 200;" class="header col s12">Markman's Shit ToDo Today</h1>
+  <div class="divider"></div>
+
+  <div class="row">
+    <!-- Make a new Todo -->
+
   </div>
 
-  <h1 style="font-weight: 200;" class="header col s12">Shit ToDo Today</h1>
-  <div class="row divider"> </div>
+  <div class="row">
+    <div class="col s6">
+      <!-- List of Todos -->
+      <div ui-sortable ng-model="todos">
+        <div class="input-field" ng-repeat="todo in todos" style="padding:5px 10px; cursor: move;">
+          <input type="text" ng-model="todo" class="">
+          <a class="btn-floating right" ng-click="removeTodo($index)"><i class="mdi-navigation-close"></i></a>
+        </div>
+      </div>
+    </div>
 
-  <div class="section">
-    <!-- Make a new Todo -->
     <form role="form" ng-submit="addTodo()">
-      <div class="row">
-        <div class="input-field col s12">
+
+        <div class="input-field col s6 grid-example">
           <input type="text" id="addShit" ng-model="todo" placeholder="" class="validate">
           <label for="addShit">Add more shit</label>
 
-          <span class="btn waves-effect waves-light right" type="submit">Add</span>
+          <button class="btn waves-effect waves-light right" type="submit">Add</button>
         </div>
-      </div>
     </form>
   </div>
-  <div class="section">
-    <!-- List of Todos -->
-    <p class="input-field" ng-repeat="todo in todos">
-      <input type="text" ng-model="todo" class="">
-    </p>
-  </div>
+
 </div>
