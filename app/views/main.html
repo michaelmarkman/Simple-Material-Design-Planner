@@ -23,7 +23,6 @@
 
                 <div class="input-field col s12 grid-example">
                   <input type="text" id="addShit" ng-model="todo.title" placeholder="I'm doing..." class="validate">
-<!--                  <label for="addShit">I'm doing...</label>-->
 
                   <a class="" type="submit"></a>
                 </div>
@@ -65,21 +64,21 @@
                 <form action="#">
                     <p>
                         <input type="checkbox" id="task1" />
-                        <label for="task1"><input type="text" placeholder="Task 1" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.desc"></label>
+                        <label for="task1"><input type="text" placeholder="Task 1" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check1"></label>
                     </p>
                     <p>
                         <input type="checkbox" id="filled-in-box" />
-                        <label for="filled-in-box"><input type="text" placeholder="Task 2" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.desc"></label>
+                        <label for="filled-in-box"><input type="text" placeholder="Task 2" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check2"></label>
                     </p>
                     <p>
                         <input type="checkbox" id="test6" />
-                        <label for="test6"><input type="text" placeholder="Task 3" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.desc"></label>
+                        <label for="test6"><input type="text" placeholder="Task 3" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check3"></label>
                     </p>
                 </form>
 
             </div>
             <div class="card-action">
-              <button class="btn white-text" style="" ng-click="removeTodo($index)" >Done.</button>
+              <button class="btn white-text" style="" ng-click="removeTodo($index)" >Done</button>
             </div>
           </div>
 
