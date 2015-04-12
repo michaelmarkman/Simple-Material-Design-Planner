@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class="">
 
 <head>
   <meta charset="utf-8">
@@ -18,7 +18,7 @@
   <!-- endbuild -->
 </head>
 
-<body ng-app="simpleMaterialDesignPlannerApp">
+<body class="" ng-app="simpleMaterialDesignPlannerApp">
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -26,6 +26,7 @@
   <!-- Add your site or application content here -->
 
 
+<!--
   <nav>
     <div class="nav-wrapper blue">
       <div class="col s12">
@@ -33,15 +34,34 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down" style="">
           <li><a href="https://github.com/michaelmarkman" target="blank">Github</a></li>
           <li><a href="https://www.linkedin.com/in/michaelgmarkman" target="blank">LinkedIn</a></li>
-          <!-- <li><a href="">Resume</a></li> -->
+           <li><a href="">Resume</a></li>
         </ul>
       </div>
     </div>
   </nav>
+-->
 
-  <div class="container">
-    <div ng-view=""></div>
-    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+   <div class="nav-wrapper red" style="padding:px">
+<!--
+      <div class="col s4 ">
+          <h1 style="font-weight: 400;" class="header col s12">To<span class="blue-text">Day</span></h1>
+      </div>
+-->
+
+      <div class=" z-depth-2" style="padding:5px">
+          <h1 style="font-weight: 600;" class="header col s12 center white-text">T<span class="-text" style="font-weight: 200;">o</span><span class="-text" style="font-weight: 600;">D</span><span class="-text" style="font-weight: 200;">ay</span></h1>
+          <p style="font-weight: 300;" class="center white-text">
+              What are you doing today?
+          </p>
+      </div>
+
+    </div>
+
+   <div class="container z-depth-4" >
+
+     <div ng-view=""></div>
+
+     <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
       <a class="btn-floating btn-large red">
         <i class="large mdi-editor-mode-edit"></i>
       </a>
@@ -86,6 +106,7 @@
   <script src="bower_components/angular-touch/angular-touch.js"></script>
   <script src="bower_components/jquery-ui/jquery-ui.js"></script>
   <script src="bower_components/angular-ui-sortable/sortable.js"></script>
+  <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -102,6 +123,11 @@
     //   $('select').material_select();
     //   console.log("ran");
     // });
+
+//  $('.datepicker').pickadate({
+//      selectMonths: true, // Creates a dropdown to control month
+//      selectYears: 15 // Creates a dropdown of 15 years to control year
+//  });
   </script>
   <!-- endbuild -->
 </body>
