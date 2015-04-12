@@ -11,7 +11,7 @@ angular.module('simpleMaterialDesignPlannerApp')
     }, true);
 
     $scope.addTodo = function() {
-      $scope.todos.push($scope.todo);
+      $scope.todos.unshift($scope.todo);
       $scope.todo = '';
     };
 
