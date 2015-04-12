@@ -1,7 +1,10 @@
 {
   "name": "simplematerialdesignplanner",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "grunt":"*",
+    "grunt-cli":"*"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -37,6 +40,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt serve"
   }
 }

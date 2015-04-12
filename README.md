@@ -31,7 +31,9 @@ We want the user to stay focused on their current day and on accomplishing all t
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+1. Run 'npm install'
+2. Run 'bower install'
+3. Run 'grunt serve'
 
 ## Testing
 
