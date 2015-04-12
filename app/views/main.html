@@ -25,16 +25,30 @@
 -->
 
       <div class=" z-depth-2" style="padding:5px">
-          <a href="/#/about"><h1 style="font-weight: 600;" class="header col s12 center white-text">T<span class="-text" style="font-weight: 200;">o</span><span class="-text" style="font-weight: 600;">D</span><span class="-text" style="font-weight: 200;">ay</span></h1></a>
+          <a href="/#/about"><h1 style="font-weight: 600;" class="header col s12 center white-text">T<span class="-text" style="font-weight: 200;">o</span><span class="-text" style="font-weight: 600;">D</span><span class="-text" style="font-weight: 200; ">ay</span></h1></a>
+<!--
           <p style="font-weight: 300;" class="center white-text">
               What are you doing today?
           </p>
+-->
+          <form role="form" ng-submit="addTodo()">
+
+                <div class="input-field col s12 center">
+                  <input type="text" id="addShit" ng-model="todo.title" style="font-weight: 400; margin-top: 0px; border-bottom: 1px solid #f44336;
+     box-shadow: 0 0px 0 0 #000; font-size: 20px;" placeholder="What are you doing today?" class="flow-text center white-text toDay" autofocus="autofocus">
+
+                  <a class="" type="submit"></a>
+                </div>
+
+            </form>
+
       </div>
 
     </div>
 
    <div class="container z-depth-4" >
 
+<!--
      <div class="card-panel">
       <div class="col s8 offset-s2">
             <form role="form" ng-submit="addTodo()">
@@ -51,7 +65,8 @@
         </div>
     </div>
 
-  <div class="divider"></div>
+
+-->
 
 
   <div class="row">
@@ -82,15 +97,15 @@
                 <form action="#">
                     <p>
                         <input type="checkbox" id="task1" />
-                        <label for="task1"><input type="text" placeholder="Task 1" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check1"></label>
+                        <label for="task1"><input type="text" placeholder="Task 1" class="black-text" style="margin-top: -15px; border-bottom:0px; box-shadow: 0 0px 0 0 #000;" id="" ng-model="todo.check1"></label>
                     </p>
                     <p>
                         <input type="checkbox" id="filled-in-box" />
-                        <label for="filled-in-box"><input type="text" placeholder="Task 2" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check2"></label>
+                        <label for="filled-in-box"><input type="text" placeholder="Task 2" class="black-text" style="margin-top: -15px; border-bottom:0px; box-shadow: 0 0px 0 0 #000;" id="" ng-model="todo.check2"></label>
                     </p>
                     <p>
                         <input type="checkbox" id="test6" />
-                        <label for="test6"><input type="text" placeholder="Task 3" class="black-text" style="margin-top: -15px; border-bottom:0px;" id="" ng-model="todo.check3"></label>
+                        <label for="test6"><input type="text" placeholder="Task 3" class="black-text" style="margin-top: -15px; border-bottom:0px; box-shadow: 0 0px 0 0 #000;" id="" ng-model="todo.check3"></label>
                     </p>
                 </form>
 
