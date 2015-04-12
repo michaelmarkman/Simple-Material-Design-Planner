@@ -1,6 +1,6 @@
-# ToDay
+<img src="ToDay.png">
 
-The beginnings of a simple but powerful daily organizer. The current version is focused around the user interface. 
+ToDay v0.0.1 - The beginnings of a simple but powerful daily organizer.
 
 ## Authors
 
