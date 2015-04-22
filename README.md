@@ -1,4 +1,4 @@
-<img src="ToDay.png">
+<img src="/screenshots/ToDay%20tablet%20view%204%20(hw5%20checklist%20added).png">
 
 ToDay v0.0.1 - The beginnings of a simple but powerful daily organizer.
 
