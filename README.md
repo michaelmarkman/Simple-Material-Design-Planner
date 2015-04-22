@@ -20,6 +20,7 @@ We want the user to stay focused on their current day and on accomplishing all t
 
 ## Future (0.0.X)
 
+* Host on Heroku
 * User Accounts
 * Gamification, 
 * Data collection and Analysis, 
