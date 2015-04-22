@@ -6,7 +6,6 @@ ToDay v0.0.1 - The beginnings of a simple but powerful daily organizer.
 
 * Michael Markman
 * Brian Lai
-* Matt Wolff
 
 ## Features (0.0.1)
 
