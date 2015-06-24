@@ -5,7 +5,6 @@ ToDay v0.0.1 - The beginnings of a simple but powerful daily organizer.
 ## Authors
 
 * Michael Markman
-* Brian Lai
 
 ## Features (0.0.1)
 
@@ -22,10 +21,10 @@ We want the user to stay focused on their current day and on accomplishing all t
 
 * Host on Heroku
 * User Accounts
-* Gamification, 
-* Data collection and Analysis, 
-* Android/iOS apps, 
-* Smart Suggestions, 
+* Gamification,
+* Data collection and Analysis,
+* Android/iOS apps,
+* Smart Suggestions,
 * Speech to Text interactions,
 * ...TBA
 
